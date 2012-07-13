@@ -1,0 +1,11 @@
+Legacy BBS Sample READ ME
+
+This is a legacy-sytle BBS sample implementation which seems out-dated nowadays, with Java/Spring 3. Demonstration is here.
+
+http://inatus.jelastic.servint.net/legacy_bbs/
+
+The followings are the instruction to deploy the application.
+
+1. Set data source to src/main/resources/META-INF/jdbc.properties
+2. Create a table with entry_table.sql on your database
+3. Deploy the application to a Tomcat 6 container
