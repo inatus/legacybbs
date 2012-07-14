@@ -53,7 +53,7 @@ public class ArquillianDroneSample {
 	driver.findElement(By.id("title")).sendKeys("title");
 	driver.findElement(By.name("submit")).click();
 
-	assertEquals(driver.getPageSource().contains("“à—e‚Í•K‚¸“ü—Í‚µ‚Ä‚­‚¾‚³‚¢"), true);
+	assertEquals(driver.getPageSource().contains("å†…å®¹ã¯å¿…ãšå…¥åŠ›ã—ã¦ãã ã•ã„"), true);
     }
 
     @After
