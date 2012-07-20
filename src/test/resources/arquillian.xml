@@ -13,7 +13,7 @@
 	</container>
 	
 	<extension qualifier="webdriver">
-		<property name="implementationClass">org.openqa.selenium.firefox.FirefoxDriver</property>
+		<property name="browserCapabilities">firefox</property>
 	</extension>
 	
 	
